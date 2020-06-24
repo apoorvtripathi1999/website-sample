@@ -4,7 +4,7 @@
         width: 100%;
         padding: 0 2%;
     }
-    
+
     .row { padding: 0 2%; }
 }
 
@@ -22,21 +22,21 @@
         width: 80%;
         margin-left: 10%;
     }
-    
+
     .steps-box { margin-top: 10px; }
     .steps-box:last-child { margin-top: 10px; }
     .work-steps { margin-bottom: 40px; }
     .work-steps:last-of-type { margin-bottom: 60px; }
-    
+
     .app-screen { width: 50%; }
-    
-    .icon-small { 
+
+    .icon-small {
         width: 17px;
         margin-right: 5px;
     }
-    
+
     .city-features { font-size: 90%; }
-    
+
     .plan-box {
         width: 100%;
         margin-left: 0%;
@@ -45,7 +45,7 @@
         width: 100%;
         font-size: 80%;
     }
-    
+
     .plan-price { font-size: 250%; }
     .contact-form { width: 80%; }
 }
@@ -56,32 +56,32 @@
 @media only screen and (max-width: 767px) {
     body { font-size: 16px; }
     section { padding: 30px 0; }
-    
+
     .row,
     .hero-text-box { padding: 0 4%;
                     font-size: 70%;
                   }
-    .main-heading { 
-                       font-size: 280%;          
+    .main-heading {
+                       font-size: 280%;
                    }
-    .col { 
+    .col {
         width: 100%;
         margin: 0 0 4% 0;
     }
-    
-    
+
+
     .main-nav { display: none; }
-    
+
     .main-nav {
         float: left;
         margin-top: 30px;
         margin-left: 25px;
     }
-    
+
     .main-nav li {
         display: block;
     }
-    
+
     .main-nav li a:link,
     .main-nav li a:visited {
         display: block;
@@ -89,18 +89,18 @@
         padding: 10px 0;
         font-size: 100%;
     }
-    
+
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
-    
+
     .long-copy {
         width: 100%;
         margin-left: 0%;
     }
-    
+
     .app-screen { width: 40%; }
     .steps-box:first-child { text-align: center; }
-    
+
     .works-steps div {
         height: 40px;
         width: 40px;
@@ -110,7 +110,7 @@
     }
     .work-steps { margin-bottom: 20px; }
     .work-steps:last-of-type { margin-bottom: 20px; }
-    .city-features 
+    .city-features
     {
         text-align: justify-all;
     }
@@ -134,8 +134,12 @@
 @media only screen and (max-width: 480px) {
     section { padding: 25px 0; }
     .contact-form {width: 100%; }
-    .main-heading { 
-                       font-size: 90%;          
+    .main-heading {
+                       font-size: 90%;
                    }
+    .plan-box {
+                    margin-bottom: 20px;
+              }
+
+     .row { padding: 0 1%; }
 }
-    
